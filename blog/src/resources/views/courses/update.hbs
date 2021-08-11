@@ -1,0 +1,21 @@
+<div class="mt-4">
+    <h1>UPDATE COURSES</h1>
+    <form method="POST" action="/courses/update/{{courses._id}}?_method=PUT">
+        <div class="form-group">
+            <label for="exampleInputEmail1">Name Courses</label>
+            <input type="text" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp"
+                placeholder="Enter Courses" name="name" value="{{courses.name}}">
+        </div>
+        <div class="form-group">
+            <label for="exampleInputEmail1">Description</label>
+            <textarea type="text" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp"
+                placeholder="Enter description" name="description">{{courses.description}}</textarea>
+        </div>
+        <div class="form-group">
+            <label for="exampleInputEmail1">Video Id</label>
+            <input type="text" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp"
+                placeholder="Enter videoId" name="videoId" value="{{courses.videoId}}">
+        </div>
+        <button type="submit" class="btn btn-primary">Save</button>
+    </form>
+</div>

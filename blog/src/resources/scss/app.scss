@@ -1,0 +1,32 @@
+@import 'variables';
+.test {
+    font-size: 1.4rem;
+    background-color: red;
+    border-radius: 50%;
+}
+
+h1 {
+    color: $red-color;
+}
+
+h2 {
+    color: $green-color;
+}
+
+.card-item {
+    margin: 20px 0px;
+}
+
+.avatar-user {
+    height: 30px;
+    border-radius: 50%;
+    margin-right: 8px;
+}
+
+.checkbox-select-all-options {
+    max-width: 150px;
+}
+
+.form-check-box {
+    margin-right: 10px;
+}
